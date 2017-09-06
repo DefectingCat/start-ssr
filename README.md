@@ -1,9 +1,9 @@
 # start-ssr
 ShadowsocksR一键安装脚本
 
-#说明&使用
-脚本默认为使用-d参数启动服务。
-运行后该目录下会产生shadowsocksr文件夹以及shadowsocksr.zip
+#说明&使用</br>
+脚本默认为使用-d参数启动服务。</br>
+运行后该目录下会产生shadowsocksr文件夹以及shadowsocksr.zip</br>
 配置文件参数请参考
 添加可执行参数后，使用./start.sh启动脚本
 第一次启动后续可使用./switch.sh控制服务的启动停止
