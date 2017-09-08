@@ -1,4 +1,4 @@
-#By Defectink.</br>
+##### #By Defectink.</br>
 欢迎使用纯shell脚本技术的ShadowsocksR一键安装脚本。</br>
 本来创作该脚本初始目的是为了方便自己，即为自用。</br>
 后来放出来也希望能够帮助到有需要的朋友们。</br>
