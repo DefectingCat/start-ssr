@@ -3,8 +3,8 @@ echo "Y-启动服务；N-停止服务"
 read abc
 case $abc in
  y)
-	y=`python shadowsocksr/shadowsocks/server.py -c shadowsocksr/shadowsocks/config.json -d start | grep "started"`
-	if [[ "$y" =~ "started" ]] ;then
+	y=`python shadowsocksr/shadowsocks/server.py -c shadowsocksr/shadowsocks/config.json -d start | wc -l`
+	if [[ "$y" = "2" ]] ;then
         	echo "启动成功"
 	else
         	echo "启动失败"

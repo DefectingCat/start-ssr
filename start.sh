@@ -54,9 +54,9 @@ else
         apt install python -y
 fi
 #执行启动ssr
-s=`python shadowsocksr/shadowsocks/server.py -c shadowsocksr/shadowsocks/config.json -d start | grep "started"`
+s=`python shadowsocksr/shadowsocks/server.py -c shadowsocksr/shadowsocks/config.json -d start | wc -l`
 #echo "$s"
-if [[ "$s" =~ "started" ]] ;then
+if [[ "$s" = "2" ]] ;then
         echo "启动成功"
 else
         echo "启动失败"
