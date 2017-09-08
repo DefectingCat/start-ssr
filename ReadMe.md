@@ -38,3 +38,4 @@ ShadowsocksR为原作者Fork而来。</br>
 请使用管理员权限运行</br>
 请参考：https://github.com/DefectingCat/start-ssr/wiki/Ubuntu%E8%84%9A%E6%9C%AC%E9%97%AE%E9%A2%98
 </br>
+个人站点页面：http://101.236.25.59/
