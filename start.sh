@@ -54,10 +54,18 @@ else
         apt install python -y
 fi
 #执行启动ssr
-s=`python shadowsocksr/shadowsocks/server.py -c shadowsocksr/shadowsocks/config.json -d start`
-echo "$s"
+=`python shadowsocksr/shadowsocks/server.py -c shadowsocksr/shadowsocks/config.json -d start | grep "loaded collections.OrderedDict"`
+#echo "$s"
+if [[ "$s" =~ "loaded collections.OrderedDict" ]] ;then
+        echo "启动成功"
+else
+        echo "启动失败"
+fi
 ps=`ps -aux | grep shadowsocksr`
 echo "启动后进程为:"
 echo "$ps"
+cat=`cat shadowsocksr/shadowsocks/config.json`
+echo "客户端可按照如下配置填写:"
+echo "$cat"
 echo "Over"
 
