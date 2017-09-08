@@ -54,9 +54,9 @@ else
         apt install python -y
 fi
 #执行启动ssr
-s=`python shadowsocksr/shadowsocks/server.py -c shadowsocksr/shadowsocks/config.json -d start | grep "loaded collections.OrderedDict"`
+s=`python shadowsocksr/shadowsocks/server.py -c shadowsocksr/shadowsocks/config.json -d start | grep "started"`
 #echo "$s"
-if [[ "$s" =~ "loaded collections.OrderedDict" ]] ;then
+if [[ "$s" =~ "started" ]] ;then
         echo "启动成功"
 else
         echo "启动失败"
