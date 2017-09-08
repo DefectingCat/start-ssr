@@ -5,7 +5,7 @@
 脚本结构非常简单，使用的是纯Shell脚本语言。</br>
 大量使用的是if语句，个人对正则表达式理解程度还不到位，</br>
 导致了脚本的某些方面的不完善。以后会继续学习与修改的。</br>
-#说明</br>
+##### #说明</br>
 脚本默认为使用-d参数启动服务。</br>
 运行后该目录下会产生shadowsocksr文件夹以及shadowsocksr.zip</br>
 配置文件参数请参考：https://github.com/DefectingCat/start-ssr/wiki/%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0</br>
