@@ -12,7 +12,6 @@ fi
 #git to ShdowsocksR(Python版)
 #timeou设置超时时间，超过一分钟即更换下载方式。
 timeout 60 git clone https://github.com/DefectingCat/shadowsocksr
-wget http://101.236.25.59/app/shadowsocksr.zip
 #下载完成后，开始安装配置
 #安装配置部分
 echo "请填写配置文件信息："
