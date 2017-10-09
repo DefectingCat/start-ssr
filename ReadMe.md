@@ -1,10 +1,4 @@
-#### #By Defectink.</br>
-欢迎使用纯shell脚本技术的ShadowsocksR一键安装脚本。</br>
-本来创作该脚本初始目的是为了方便自己，即为自用。</br>
-后来放出来也希望能够帮助到有需要的朋友们。</br>
-脚本结构非常简单，使用的是纯Shell脚本语言。</br>
-大量使用的是if语句，个人对正则表达式理解程度还不到位，</br>
-导致了脚本的某些方面的不完善。以后会继续学习与修改的。</br>
+
 ##### #说明</br>
 脚本默认为使用-d参数启动服务。</br>
 运行后该目录下会产生shadowsocksr文件夹以及shadowsocksr.zip</br>
@@ -39,4 +33,3 @@ ShadowsocksR为原作者Fork而来。</br>
 确保端口为防火墙放行</br>
 请参考：https://github.com/DefectingCat/start-ssr/wiki/Ubuntu%E8%84%9A%E6%9C%AC%E9%97%AE%E9%A2%98
 </br>
-个人站点页面：http://101.236.25.59/
