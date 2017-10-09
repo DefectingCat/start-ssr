@@ -1,5 +1,5 @@
 #!/bin/bash
-#纯shell script一键安装ShadowsockR Pytho
+#纯shell script一键安装ShadowsockR Python
 echo "欢迎使用。请确保过程中连接网络。"
 #使用which检查git是否存在系统
 g=`which git`
