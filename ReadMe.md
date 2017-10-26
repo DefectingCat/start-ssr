@@ -1,5 +1,6 @@
 
 ##### #说明</br>
+--------------
 脚本默认为使用-d参数启动服务。</br>
 运行后该目录下会产生shadowsocksr文件夹以及shadowsocksr.zip</br>
 配置文件参数请参考：https://github.com/DefectingCat/start-ssr/wiki/%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0</br>
