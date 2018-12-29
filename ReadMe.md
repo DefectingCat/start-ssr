@@ -33,3 +33,5 @@ ShadowsocksR为原作者Fork而来。</br>
 确保端口为防火墙放行</br>
 请参考：https://github.com/DefectingCat/start-ssr/wiki/Ubuntu%E8%84%9A%E6%9C%AC%E9%97%AE%E9%A2%98
 </br>
+
+* test
